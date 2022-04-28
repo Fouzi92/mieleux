@@ -7,6 +7,20 @@ position: fixed;
 padding: 1rem;
 width: 100%;
 min-height: 75px;
-background-color: black;
-color: whitesmoke;
+background-color: yellow;
+color: rgb(253, 0, 0);
+}
+.navbar_links {
+    display: flex;
+}
+.navbar_link {
+    padding: 0 0.3rem;
+    color: inherit;
+}
+.navbar_burger {
+    width:40px ;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    color: inherit;
 }
