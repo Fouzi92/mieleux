@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 
 
+
 const NavBar = () => {
  const [showLinks, setShowLinks] = useState(false)
 
@@ -14,7 +15,8 @@ const NavBar = () => {
 
   return (
   <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
-    <div className="navbar_logo">Logo</div>
+    <div className="navbar_logo">
+    </div>
 <ul className="navbar_links">
   <li className="navbar_item slideInDown-1">
 <a href="

@@ -1,11 +1,14 @@
 import React from "react";
+import LogoMiel from "../components/LogoMiel";
 import NavBar from "../components/NavBar";
 
 const Accueil = () => {
   return (
     <div>
       <NavBar />
+
       <div className="test">
+        <LogoMiel />
         <h1>Hello les chômeur</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolorum
