@@ -17,18 +17,20 @@ body {
 ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
 }
 
-.Cho {
-    align-items:center;
-    text-align: center;
-    font-size: 5rem;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%);
+h1, p {
+    margin-bottom: 1rem;
 }
+
+.test {
+    
+    min-height: 200vh;
+    padding: 6rem 1rem 1rem;
+}
+
