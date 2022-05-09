@@ -5,8 +5,8 @@ const LogoMiel = () => {
     return (
         <div className='logo-miel'>
             <img src={Logo1}
-            width={200}
-            height={200}
+            width={100}
+            height={100}
              alt="logo" />
         </div>
     );

@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import LogoMiel from "../components/LogoMiel";
 import NavBar from "../components/NavBar";
 
@@ -6,9 +7,9 @@ const Accueil = () => {
   return (
     <div>
       <NavBar />
-
+      <LogoMiel />
+      <Footer />
       <div className="test">
-        <LogoMiel />
         <h1>Hello les chômeur</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolorum
